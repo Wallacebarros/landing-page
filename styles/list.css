@@ -1,0 +1,22 @@
+.list {
+  padding: 30px 15px;
+  margin-top: 5vh;
+  background-color: #252525;
+  color: #f0f0f0;
+  border-radius: 30px;
+}
+
+.list > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 5vw;
+}
+
+.list ul > li > i {
+  margin-bottom: 16px;
+}
+
+.list ul > li > h2 {
+  font-size: clamp(0.5em, 1em + 2vw, 1.5em);
+  margin-bottom: 32px;
+}
