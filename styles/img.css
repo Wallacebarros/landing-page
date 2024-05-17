@@ -1,0 +1,9 @@
+.img {
+  width: calc(50vw - 20px);
+  display: flex;
+}
+
+img {
+  height: 60vh;
+  margin-left: auto;
+}
