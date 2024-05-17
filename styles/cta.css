@@ -1,0 +1,27 @@
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.cta > h1 {
+  font-size: clamp(1rem, 2rem + 3vw, 3rem);
+  font-weight: bold;
+}
+
+.cta > p {
+  font-size: clamp(0.5rem, 1rem + 3vw, 1.2rem); 
+}
+
+.cta > button {
+  margin: 0 auto;
+  margin-left: 0;
+  padding: 12px 24px;
+  border: 1px solid #000;
+  border-radius: 32px;
+  background-color: #252525;
+  color: #fff;
+
+  font-size: 1.2em;
+}
